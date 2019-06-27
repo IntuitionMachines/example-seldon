@@ -73,7 +73,7 @@ spec:
       #successCondition: status.replicaStatuses.Worker.succeeded == 1
       successCondition: status.completionTime != null
       manifest: |   #put your kubernetes spec here
-       apiVersion: "kubeflow.org/v1alpha2"
+       apiVersion: "kubeflow.org/v1alpha3"
        kind: "TFJob"
        metadata:
          name: mnist-train-{{workflow.parameters.tfjob-version-hack}}
