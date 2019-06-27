@@ -104,7 +104,7 @@ spec:
                        name: "persistent-storage"
                        volumeSource:
                          persistentVolumeClaim:
-                           claimName: "nfs-1"
+                           claimName: "mnist-azure-1"
              graph:
                children: []
                endpoint:
